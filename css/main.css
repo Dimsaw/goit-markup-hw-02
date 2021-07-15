@@ -10,20 +10,101 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --second-background-color: #2f303a;
+  --additional-background-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
 }
 
 ul {
   list-style: none;
 }
 
+/*header*/
+
+header {
+  background-color: var(--primary-background-color);
+}
+
 .logo-first {
-  color: #2196f3;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
 .logo-second {
   color: #000000;
+  text-decoration: none;
 }
 
 .advantages {
   list-style: none;
 }
+
+.menu-item {
+  color: (var(--primary-text-color));
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.contact-item {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+/*main contant*/
+
+/*section order*/
+
+.order {
+  background-color: var(--primary-text-color);
+}
+
+.main-idea {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.order-btn {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* section advantages*/
+
+.advantages-item {
+  color: var(--primary-text-color)  
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.description-item {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/*our works*/
+
+.works {
+    color: var(--primary-text-color);
+    font-style: 700;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    }
