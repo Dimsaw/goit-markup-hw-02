@@ -1,0 +1,29 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет лого и кнопок #2196F3 */
+
+/* основной цвет фона #FFFFFF  */
+/* вторичныйцвет фона #2F303A */
+/* дополнительный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-first {
+  color: #2196f3;
+}
+
+.logo-second {
+  color: #000000;
+}
+
+.advantages {
+  list-style: none;
+}
