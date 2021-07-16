@@ -10,14 +10,15 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
-  --primary-background-color: #ffffff;
+  --white: #ffffff;
   --second-background-color: #2f303a;
   --additional-background-color: #f5f4fa;
 }
 
 body {
   font-family: Roboto;
-  font-style: normal;
+  font-style: 500;
+  color: var(--primary-text-color);
 }
 
 ul {
@@ -27,17 +28,27 @@ ul {
 /*header*/
 
 header {
-  background-color: var(--primary-background-color);
+  background-color: var(--white);
 }
 
 .logo-first {
   color: var(--accent-color);
   text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-second {
   color: #000000;
   text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .advantages {
@@ -45,8 +56,6 @@ header {
 }
 
 .menu-item {
-  color: (var(--primary-text-color));
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -67,7 +76,7 @@ header {
 }
 
 .main-idea {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -75,8 +84,9 @@ header {
 }
 
 .order-btn {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--accent-color);
+  font-style: 700;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -85,26 +95,67 @@ header {
 /* section advantages*/
 
 .advantages-item {
-  color: var(--primary-text-color)  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
 }
 
 .description-item {
-    color: var(--title-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-/*our works*/
+/*our works and team*/
 
-.works {
-    color: var(--primary-text-color);
-    font-style: 700;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    }
+.works,
+.team {
+  font-style: 700;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section-team {
+  background-color: var(--additional-background-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/*contact inform*/
+
+.footer {
+  background-color: var(--second-background-color);
+}
+
+.logo-second-fotter {
+  color: var(--white);
+}
+.contact {
+  color: var(--white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
