@@ -15,9 +15,14 @@
   --additional-background-color: #f5f4fa;
 }
 
+cursor: pointer;
+cursor: auto;
+
 body {
   font-family: "Roboto", "Raleway", Arial, sans-serif;
-  font-style: 500;
+  font-style: normal;
+  font-weight: 400;
+
   color: var(--primary-text-color);
 }
 
@@ -33,6 +38,16 @@ a {
 
 header {
   background-color: var(--white);
+}
+
+.site-nav .menu-item:hover,
+.site-nav .menu-item:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .auth-item:hover,
+.auth-nav .auth-item:focus {
+  color: var(--accent-color);
 }
 
 .logo-first {
@@ -66,7 +81,7 @@ header {
   text-decoration: none;
 }
 
-.contact-item {
+.auth-item {
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -94,6 +109,8 @@ header {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* section advantages*/
@@ -106,7 +123,6 @@ header {
 
 .description-item {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -115,8 +131,7 @@ header {
 
 .works,
 .team {
-  font-style: 700;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -134,8 +149,6 @@ header {
 
 .team-position {
   color: var(--title-text-color);
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -151,10 +164,13 @@ header {
 }
 .contact {
   color: var(--white);
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.auth-footer .footer-item:hover,
+.auth-footer .footer-item:focus {
+  color: var(--accent-color);
 }
 
 .footer-item {
@@ -171,4 +187,10 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+}
+
+.product {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
