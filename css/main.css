@@ -16,13 +16,17 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: "Roboto", "Raleway", Arial, sans-serif;
   font-style: 500;
   color: var(--primary-text-color);
 }
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*header*/
@@ -158,4 +162,13 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+/* страница 2 */
+
+.opportunity {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
