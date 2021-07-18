@@ -40,8 +40,16 @@ header {
   background-color: var(--white);
 }
 
+.menu-item {
+  color: var(--primary-text-color);
+}
+
 .site-nav .menu-item:hover,
 .site-nav .menu-item:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .menu-item:active {
   color: var(--accent-color);
 }
 
