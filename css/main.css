@@ -6,6 +6,14 @@
 /* вторичныйцвет фона #2F303A */
 /* дополнительный цвет фона #F5F4FA */
 
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+
+  color: var(--primary-text-color);
+}
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -13,17 +21,6 @@
   --white: #ffffff;
   --second-background-color: #2f303a;
   --additional-background-color: #f5f4fa;
-}
-
-cursor: pointer;
-cursor: auto;
-
-body {
-  font-family: "Roboto", "Raleway", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-
-  color: var(--primary-text-color);
 }
 
 ul {
@@ -34,22 +31,25 @@ a {
   text-decoration: none;
 }
 
+cursor: pointer;
+cursor: auto;
+
 /*header*/
 
 header {
   background-color: var(--white);
 }
 
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--accent-color);
+}
+
 .menu-item {
   color: var(--primary-text-color);
 }
 
-.site-nav .menu-item:hover,
-.site-nav .menu-item:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .menu-item:active {
+.current {
   color: var(--accent-color);
 }
 
@@ -169,6 +169,7 @@ header {
 /*contact inform*/
 
 .footer {
+  font-family: "Roboto";
   background-color: var(--second-background-color);
 }
 
@@ -195,14 +196,13 @@ header {
 
 /* страница 2 */
 
-.site-nav .menu-item:hover,
-.site-nav .menu-item:focus {
-  color: var(--accent-color);
-}
-
 .button-main {
   color: var(--white);
   background-color: var(--accent-color);
+}
+
+.button {
+  background-color: F5F4FA;
 }
 
 .button:hover,
