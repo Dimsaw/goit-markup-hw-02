@@ -7,7 +7,7 @@
 /* дополнительный цвет фона #F5F4FA */
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
 
@@ -61,7 +61,7 @@ header {
 .logo-first {
   color: var(--accent-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -71,7 +71,7 @@ header {
 .logo-second {
   color: #000000;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -92,6 +92,10 @@ header {
 .auth-item {
   color: var(--title-text-color);
   text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /*main contant*/
@@ -169,7 +173,7 @@ header {
 /*contact inform*/
 
 .footer {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   background-color: var(--second-background-color);
 }
 
@@ -178,6 +182,9 @@ header {
 }
 .contact {
   color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -189,9 +196,6 @@ header {
 
 .footer-item {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 /* страница 2 */
@@ -202,7 +206,8 @@ header {
 }
 
 .button {
-  background-color: F5F4FA;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
 }
 
 .button:hover,
